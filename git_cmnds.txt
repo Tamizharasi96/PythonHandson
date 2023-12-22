@@ -1,0 +1,9 @@
+git config --global user.name "Tamizharasi96"
+git config --global user.email "tamizhsangami@gmail.com"
+echo "# Tamizharasi96" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tamizharasi96/Tamizharasi96.git
+git push -u origin main
